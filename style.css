@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --corPrincipal: #198754;
+    --corFont: #198754;
+}
+
+header {
+    margin-top: 20px;
+    padding: auto;
+}
+
+h1 {
+    color: var(--corFont);
+}
+
+p {
+    color: var(--corFont);
+}
+
+#areaInput {
+    padding: 5px;
+}
+
+input {
+    max-width: 25rem;
+    height: 3rem;
+    text-align: center;
+    border: 1px solid var(--corPrincipal);
+    border-radius: 15px;
+
+}
+
+input::placeholder {
+    color: var(--corPrincipal);
+}
+
+input:focus-within {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    border: 3px solid var(--corPrincipal);
+}
+
+
+.texto-tarefa {
+    cursor: pointer;
+}
+
+.texto-tarefa-concluida {
+    text-decoration: line-through;
+}
+
+.botao-tarefa {
+    text-decoration: none;
+    border: none;
+}
