@@ -58,7 +58,7 @@ input:focus-within {
 .botao-tarefa {
     text-decoration: none;
     border: none;
-    background-color: black;
+    background-color: white;
     width: 35px;
     heigth:35px;
 }
