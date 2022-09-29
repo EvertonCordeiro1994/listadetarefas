@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    background-color: white;
 }
 
 :root {
@@ -57,5 +58,5 @@ input:focus-within {
 .botao-tarefa {
     text-decoration: none;
     border: none;
-    backgroud: none;
+    backgroud-color: white;
 }
